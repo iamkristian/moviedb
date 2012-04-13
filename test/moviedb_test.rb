@@ -17,4 +17,5 @@ class MovieDBTest < Test::Unit::TestCase
       ENV['MOVIEDB_API_KEY'] = '234'
       assert_equal '123', MovieDB.api_key
   end
+  
 end

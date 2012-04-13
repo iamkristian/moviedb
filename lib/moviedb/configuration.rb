@@ -3,7 +3,7 @@ module MovieDB
 
     attr_reader :images, :backdrops, :posters, :logos
 
-    def initialize
+    def initialize  
     end
 
     def images

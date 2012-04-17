@@ -18,4 +18,5 @@ class MovieDBTest < Test::Unit::TestCase
       assert_equal '123', MovieDB.api_key
   end
   
+  
 end

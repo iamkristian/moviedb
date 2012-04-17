@@ -4,6 +4,7 @@ gem "multi_json"
 
 group :test do
 	gem "shoulda"
+	gem "webmock"
 end
 
 group :development do
